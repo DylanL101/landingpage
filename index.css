@@ -1,0 +1,33 @@
+.header{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 24px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px;
+    padding: 8px;
+    flex:1 1 auto;
+
+}
+body{
+    margin:0;
+}
+
+nav{
+    font-size:18px;
+    display:flex;
+    flex-direction: row;
+    
+    gap: 8px;
+    
+    
+
+}
+a{
+    font-family: sans-serif;
+    color:#F9FAF8;
+    text-decoration:none;
+    margin:8px;
+    gap:8px;
+}
