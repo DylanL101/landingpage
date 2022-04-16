@@ -30,7 +30,7 @@ a{
     margin:8px;
     gap:8px;
 }
-section {
+.sectionone {
     margin:0;
     font-size: 23px;
 }
@@ -70,4 +70,36 @@ section {
     border-radius:12px;
     display:block;
     margin: 0 auto;
+}
+.subheading{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif ;
+    color:#1F2937;
+    text-align: center;
+    font-weight:bold;
+
+}
+#contain{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+
+
+}
+
+.item{
+    flex: 0 48%;
+    margin: 1% 1% 8px 1%;
+    gap:5px;
+}
+
+.item img{
+    max-width: 100%;
+    display:block;
+    margin: 0px;
+    max-height:200px;
+}
+.text{
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif
 }
