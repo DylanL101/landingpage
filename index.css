@@ -82,7 +82,6 @@ a{
 #contain{
     display:flex;
     flex-wrap: nowrap;
-    justify-items: center;
 
 
 }
@@ -96,10 +95,30 @@ a{
 .item img{
     max-width: 100%;
     display:block;
-    margin: 0px;
+    margin: 5px;
     max-height:200px;
 }
 .text{
     font-size:18px;
     font-family:'Times New Roman', Times, serif
+}
+.sectionthree{
+    background-color:#E5E7EB ;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center;
+
+}
+.quote{
+    font-style: italic;
+    font-weight:200;
+    font-family: 'Times New Roman', Times, serif;
+}
+.source{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    padding-top:65px;
+   
+
 }
